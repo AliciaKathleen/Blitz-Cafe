@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #2C1810;
+    --primary-color: #2C2C2C;
     --secondary-color: #8B4513;
-    --accent-color: #C17817;
+    --accent-color: #141414;
     --text-color: #2A2A2A;
     --light-bg: #F8F4F1;
     --white: #FFFFFF;
@@ -32,7 +32,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(44, 24, 16, 0.95);
+    background: #141414;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -46,7 +46,7 @@ body {
 
 .navbar.scrolled {
     padding: 0.8rem 2rem;
-    background: rgba(44, 24, 16, 0.98);
+    background: #141414;
 }
 
 .logo {
@@ -232,7 +232,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: var(--secondary-color);
+    background-color: #fcb804;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -263,7 +263,7 @@ body {
 
 .about h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: #141414;
     margin-bottom: 4rem;
     font-size: 3rem;
     position: relative;
@@ -423,7 +423,7 @@ body {
 }
 
 .menu-item h3 {
-    color: var(--primary-color);
+    color: #141414;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
     position: relative;
@@ -446,7 +446,7 @@ body {
 }
 
 .menu-item p {
-    color: var(--text-color);
+    color: #141414;
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.6;
@@ -465,7 +465,7 @@ body {
 
 .menu-item:hover .price {
     transform: scale(1.1);
-    background: var(--secondary-color);
+    background: #141414;
 }
 
 /* Features Section */
@@ -489,7 +489,7 @@ body {
 
 .features h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: #141414;
     margin-bottom: 4rem;
     font-size: 3rem;
     position: relative;
@@ -559,13 +559,13 @@ body {
 }
 
 .feature-item h3 {
-    color: var(--primary-color);
+    color: #141414;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
 .feature-item p {
-    color: var(--text-color);
+    color: #141414;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -591,7 +591,7 @@ body {
 
 .location h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: #141414;
     margin-bottom: 4rem;
     font-size: 3rem;
     position: relative;
@@ -643,7 +643,7 @@ body {
 }
 
 .location-info h3 {
-    color: var(--primary-color);
+    color: #141414;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
@@ -661,7 +661,7 @@ body {
 }
 
 .hours h4 {
-    color: var(--primary-color);
+    color: #141414;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -686,7 +686,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--primary-color);
+    background-color: #141414;
     color: var(--white);
     padding: 6rem 2rem 2rem;
     position: relative;
@@ -819,7 +819,7 @@ body {
         right: -100%;
         width: 80%;
         height: 100vh;
-        background: var(--primary-color);
+        background: #141414;
         flex-direction: column;
         align-items: center;
         justify-content: center;
